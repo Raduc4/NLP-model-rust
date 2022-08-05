@@ -2,7 +2,7 @@ use rust_bert::pipelines::sentiment::SentimentModel;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let sentiment_classifier = SentimentModel::new(Default::default())?;
-    println!("Pula mea de cod",);
+   
     let input = [ 
         "Nvidia Stock Is Falling After Earnings. It's Just One More Big Tech Disappointment.
         Nvidia recently said it was slowing down the pace of its hiring. DREAMSTIME
